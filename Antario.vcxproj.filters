@@ -1,0 +1,942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="csgocheat\virtuosity_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\c_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\c_hook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\c_hotkeys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\c_log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\c_memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\c_netvar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\c_singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\intrinsics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\IPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\utils\welcome_message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sounds\sounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\security\erase_function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\security\fnv1a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\security\random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\security\string_obfuscation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_base_animating.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_base_attributable_item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_base_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_base_combat_character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_base_combat_weapon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_base_entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_base_player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_base_view_model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_client_entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_client_entity_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_client_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_cs_player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_csgo_player_animstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_cvar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_debug_overlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_engine_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_engine_sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_engine_trace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_game_event_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_game_movement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_game_rules.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_global_vars_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_glow_object_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_input_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_material_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_model_info_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_model_render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_move_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_net_channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_prediction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_render_view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_surface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_surface_props.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_user_cmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_utlvector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_vector2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_vector3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_view_beams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_view_render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\c_weapon_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\class_id.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\datamap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\recv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\sdk\recv_prop_hook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\renderer\c_font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\renderer\c_indicators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\renderer\c_renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\c_button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\c_checkbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\c_color_select.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\c_drawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\c_float_select.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\c_flow_layout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\c_group_box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\c_hotkey_select.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\c_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\c_navbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\c_navbar_tab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\c_router.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\c_select.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\c_text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\framework\macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\c_aiming.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\c_conf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\c_menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\c_misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\c_visuals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\menu\c_welcome_message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lauxlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\ldebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\ldo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lgc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\llex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\llimits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lopcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lprefix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\ltable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\ltm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lua.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\luaconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lualib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lundump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lvm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\Lua\lzio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\libs\json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\images\logo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_base_animating_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_cl_camera_height_restriction_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_cl_csm_shadows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_client_mode_shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_client_state_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_cs_player_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_engine_client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_engine_sound_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_events.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_game_event_manager_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_mdl_cache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_model_render_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_net_channel_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_panel_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_prediction_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_render_view_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_smoke_grenade_projectile_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_surface_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_sv_cheats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_view_render_.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\c_wnd_proc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\cte_effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hooks\idirect3ddevice9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\aimbot_recode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_aimhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_animation_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_antiaim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_chams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_damageesp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_esp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_fake_ping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_hitmarker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_legitbot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_legitbot_beta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_miscellaneous.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_movement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_prediction_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_ragebot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_resolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\c_trace_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\hacks\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\fonts\profont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\D3DFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\ImConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\loki_framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\LuaAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\RadioManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\TextEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\BASS\api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\BASS\bass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\BASS\dll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\ImGUI\DX9\imgui_impl_dx9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\ImGUI\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\ImGUI\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\ImGUI\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\ImGUI\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\ImGUI\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="csgocheat\ImGUI\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="csgocheat\utils\c_hotkeys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\utils\c_log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\utils\c_netvar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\sounds\cod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\sounds\sounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\security\fnv1a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\sdk\c_base_combat_weapon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\sdk\c_blood_predic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\sdk\c_color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\sdk\c_cs_player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\sdk\c_global_vars_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\sdk\c_glow_object_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\sdk\cte_blood.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\renderer\c_font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\renderer\c_indicators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\renderer\c_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\blood_prediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\menu\framework\c_button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\menu\framework\c_checkbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\menu\framework\c_color_select.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\menu\framework\c_float_select.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\menu\framework\c_flow_layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\menu\framework\c_group_box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\menu\framework\c_hotkey_select.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\menu\framework\c_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\menu\framework\c_navbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\menu\framework\c_navbar_tab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\menu\framework\c_router.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\menu\framework\c_select.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\menu\framework\c_text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\menu\c_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lauxlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lbaselib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lbitlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lcorolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\ldblib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\ldebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\ldo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\ldump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lgc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\linit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\liolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\llex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lmathlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\loadlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lopcodes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\loslib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lstate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lstrlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\ltable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\ltablib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\ltm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lua.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\luac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lundump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lutf8lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\Lua\lzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_base_animating_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_cl_camera_height_restriction_debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_cl_csm_shadows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_client_mode_shared.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_client_state_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_cs_player_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_engine_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_engine_sound_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_events.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_game_event_manager_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_mdl_cache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_model_render_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_net_channel_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_panel_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_prediction_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_render_view_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_smoke_grenade_projectile_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_surface_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_sv_cheats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_view_render_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\c_wnd_proc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\cte_effects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hooks\idirect3ddevice9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\aimbot_recode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_aimhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_animation_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_antiaim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_chams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_damageesp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_esp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_fake_ping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_hitmarker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_legitbot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_legitbot_beta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_miscellaneous.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_movement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_prediction_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_ragebot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_resolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\c_trace_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\hacks\grenade_prediction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\D3DFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\DLLMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\ImConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\loki_menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\LuaAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\RadioManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\TextEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\BASS\dll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\BASS\dll_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\ImGUI\DX9\imgui_impl_dx9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\ImGUI\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\ImGUI\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="csgocheat\ImGUI\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
